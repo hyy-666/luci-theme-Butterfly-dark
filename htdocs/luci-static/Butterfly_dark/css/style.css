@@ -1,95 +1,94 @@
-@import url(custom.css);
-
 @font-face {
   font-family: "icomoon";
   font-weight: normal;
   font-style: normal;
-  src: url("fonts/font.eot");
-  src: url("fonts/font.eot") format("embedded-opentype"),
-    url("fonts/font.ttf") format("truetype"),
-    url("fonts/font.woff") format("woff"), url("fonts/font.svg") format("svg");
+  src: url("fonts/fontawesome-webfont.eot");
+  src: url("fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+    url("fonts/fontawesome-webfont.ttf") format("truetype"),
+    url("fonts/fontawesome-webfont.woff") format("woff"),
+    url("fonts/fontawesome-webfont.svg") format("svg");
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogtq-th-webfont.woff) format("woff");
+  src: url(fonts/Geogtq-Th.otf) format("otf");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-thit-webfont.woff) format("woff");
+  src: url(fonts/Geog-ThIt.otf) format("otf");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogtq-ul-webfont.woff) format("woff");
+  src: url(fonts/Geogtq-Ul.otf) format("otf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-ulit-webfont.woff) format("woff");
+  src: url(fonts/Geog-UlIt.otf) format("otf");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogrotesque-regular-webfont.woff) format("woff");
+  src: url(fonts/Geogrotesque-regular.otf) format("otf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-rgit-webfont.woff) format("woff");
+  src: url(fonts/Geog-RgIt.otf) format("otf");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogrotesque-medium-webfont.woff) format("woff");
+  src: url(fonts/Geogrotesque-medium.otf) format("otf");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-mdit-webfont.woff) format("woff");
+  src: url(fonts/Geog-MdIt.otf) format("otf");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogtq-sb-webfont.woff) format("woff");
+  src: url(fonts/Geogtq-Sb.otf) format("otf");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-sbit-webfont.woff) format("woff");
+  src: url(fonts/Geog-SbIt.otf) format("otf");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geogtq-bd-webfont.woff) format("woff");
+  src: url(fonts/Geogtq-Bd.otf) format("otf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: Geogrotesque;
-  src: url(fonts/geog-bdit-webfont.woff) format("woff");
+  src: url(fonts/Geog-BdIt.otf) format("otf");
   font-weight: 700;
   font-style: italic;
 }
@@ -238,6 +237,14 @@ html {
 
 body {
   background: #252d38;
+  /* background-image: linear-gradient(
+      270deg,
+      rgba(21, 79, 145, 0),
+      rgba(31, 61, 85, 0.28) 56%,
+      rgba(0, 0, 0, 0.06)
+    ),
+    linear-gradient(#252d38, #252d38),
+    linear-gradient(348deg, #091c30, #083865 50%, #03233c); */
 }
 
 html,
@@ -709,7 +716,7 @@ table > thead > tr > th {
 }
 
 fieldset > table > tbody > tr:nth-of-type(odd) {
-  background-color: ##617486;
+  background-color: #617486;
 }
 
 /* fix progress bar */
@@ -836,7 +843,7 @@ form[method="post"] + form[method="post"],
 .cbi-button[name="restart"],
 .cbi-button[onclick="hide_empty(this)"] {
   font-weight: 700;
-  border: thin solid #f4;
+  border: thin solid #ff4;
   background-color: #0aa344;
 }
 
@@ -943,7 +950,7 @@ form[method="post"] + form[method="post"],
 .cbi-button[value="Save mtdblock"] {
   font-weight: 400;
   color: #fff;
-  border: thin solid #f4;
+  border: thin solid #ff4;
   background-color: #5cb85c;
 }
 
