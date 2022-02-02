@@ -2,10 +2,10 @@
 
 	luci-theme-Butterfly
 	Copyright 2017 Tracemouse <tracemouse@wcan.in>
-	
+
 	Smart Menu:
 	https://www.smartmenus.org/
-	
+
 	Font Awesome:
 	http://fontawesome.io/
 
@@ -156,8 +156,8 @@
 
 <body class="lang_<%=luci.i18n.context.lang%> <%- if node then %><%= striptags( node.title ) %><%- end %> <% if luci.dispatcher.context.authsession then %>logged-in<% end %>">
 
-	
- 
+
+
 <nav class="main-nav" role="navigation">
 
   <!-- Mobile menu toggle button (hamburger/x icon) -->
@@ -203,7 +203,7 @@
 			 %>
 			 <li class="slide">
 				 <a class="menu" data-title="<%=pcdata(striptags(nnode.title))%>" href="#">
-				 <i class="fa fa-gear"></i> 
+				 <i class="fa fa-gear"></i>
 				 <%=pcdata(striptags(translate(nnode.title)))%>
 				 </a>
 				 <%- submenu("/" .. category .. "/" .. r .. "/", nnode) %>
@@ -222,7 +222,7 @@
 			 %>
   </ul>
 </nav>
- 
+
 
  <div class="main">
 	 <div style="" class="loading"><span><div class="loading-img"></div>Loading...</span></div>
